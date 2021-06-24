@@ -1,0 +1,333 @@
+* {
+	box-sizing: border-box;
+
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: #111111;
+	color: #fff;
+}
+.container {
+	width: 1200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+/*header-area-start*/
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(../images/medical-home.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	padding-bottom: 300px;
+
+}
+.header {}
+.menu {
+	position: relative;
+}
+.menu {}
+.font-icon {
+padding-top: 50px;
+}
+.font-icon ul {
+	margin: 0;
+	padding: 0;
+
+}
+.font-icon ul li {
+	list-style: none;
+	float: left;
+	padding-right: 15px;
+
+
+}
+.font-icon ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+.font-icon ul li a i{}
+.logo {
+	position: absolute;
+	top: 0;
+	left: 45%;
+	right: 55%;
+	padding-top: 30px;
+}
+.banner-content {
+	text-align: center;
+	padding-top: 281px;
+	margin: 0;
+}
+.banner-content h2 {
+	font-size: 44px;
+	color :#fff;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	padding-top: 40px;
+}
+.btn a {
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 65px;
+	font-size: 14px;
+}
+.menu-icon {
+	float: right;
+}
+.menu-icon a i {
+	color: #fff;
+	font-size: 26px;
+}
+.date {
+	padding-top: 20px;
+}
+.date a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #fff;
+}
+
+/*header-area-finish*/
+/**/
+/*------portfolio-start*/
+.portfolio {
+	background: #111111;
+	color: #fff;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.portfolio {}
+.col40 {
+	width: 40%;
+	display: inline-block;
+	padding-top: 100px;
+}
+.col40 h6 {
+	margin: 0;
+	padding: 0;
+}
+.col40 h6 {
+	text-decoration: none;
+	font-size: 17px;
+	color: #fff568;
+
+
+}
+.btn2 a {
+	text-decoration: none;
+	color: #fff568;
+	padding: 5px 25px;
+	border: 2px solid #fff;
+
+}
+.col60{
+		width: 60%;
+		display: inline-block;
+		float: right;
+		padding-top: 120px;
+		padding-bottom: 200px;
+		color: #fff;
+}
+.col60{}
+/*-----portfolio-finish*/
+/*chart-area-start*/
+.chart {
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 100px;
+}
+.after {
+	position: relative;
+}
+.col25 {
+	width: 25%;
+	float: left;
+	border-right: 1px solid #404040;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+	text-decoration: none;
+	padding: 0;
+
+}
+.after:after {
+	content: "";
+	clear: both;
+	position: absolute;
+	left: 100%;
+	right: -500000px;
+	top: 0;
+	bottom: 0;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+}
+.before {
+	position: relative;
+	border-left: 1px solid #404040;
+}
+.before:before {
+	content: "";
+	clear: both;
+	position: absolute;
+	left: -50000px;
+	right: 100%;
+	top: 0;
+	bottom: 0;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+}
+.col25 a h2 {
+	font-size: 82px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+	padding-top: 50px;
+	font-weight: 100;
+
+}
+.col25 a {
+	text-decoration: none;
+}
+.col25 a h6 {
+	text-decoration: none;
+	color:#ffffffbd;
+	text-align: center;
+	font-size: 24px;
+	margin: 0;
+	padding-bottom: 40px;
+	font-weight: 100;
+}
+.col25 h2 {
+	text-decoration: none;
+}
+/*chart-area-finish*/
+/*skill-area-start*/
+.skill {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 100px;
+
+}
+.skill:after {	
+	content: "";
+	display: table;
+	clear: both;
+}
+.skill:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col50 {
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	width: 50%;
+	color: red;
+	color: #fff;
+}
+.col50 {}
+.border {
+	width: 100%;
+	height: 5px;
+	position: relative;
+	background-color: #595959;
+}
+.photo {
+		padding-bottom: 20px;
+		color: #ffffff;
+
+}
+.photo h3 {
+	margin: 0;
+	padding-bottom: 20px;
+	font-weight: 100;
+
+}
+.border {}
+.line {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+.line {
+	width: 80%;
+	height: 5px;
+	background: orange;
+}
+.line.b {
+	width: 60%;
+	height: 5px;
+	background: orange;
+}
+.line {
+	position: relative;
+}
+.line:after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 10px;
+	background-color: orange;
+	bottom: 0;
+	right: 0;
+
+}
+/*skill-area-finish*/
+
+
+/*portfolio-doc*/
+.portfolio-doc {
+	margin: 0;
+
+} 
+.intro {
+	text-align: center;
+}
+.portfolio-doc h2 {
+	font-size: 30px;
+	text-decoration: none;
+}.portfolio-doc h6 {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 100;
+}
+.col40-a {
+	width: 40%;
+	padding-top: 70px;
+	clear: left;
+	float: left;
+	padding-right: 20px;
+	display: inline-block;
+
+
+
+
+}
+.col60-b{
+	width: 60%;
+	float: right;
+	padding-top: 70px;
+	padding-left: 20px;
+	display: inline-block;
+}	
+	.col60-b img {
+		width: 100%;
+		height: 420px;
+
+}
+.col140-a img {
+	background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+
+}
+
+
+/*/portfolio-doc-end*/
